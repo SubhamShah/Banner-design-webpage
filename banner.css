@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{width: 1600px;
+	height: 650px;}
+.container img{
+	width: 1600px;
+	height: 650px;
+	opacity: 0.3;
+
+}
+.container .logo img{
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	bottom: 482px;
+	left: 60px;
+	opacity: 1;
+}
+.container .logo p{
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	bottom: 500px;
+	left: 50px;
+	color: blue;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 130px;
+}
+
+.container .image img{
+	position: absolute;
+	bottom: 100px;
+	left: 50px;
+	width: 350px;
+	height: 300px;
+	opacity: 1;
+	border-radius: 50%;
+
+}
+.container .text {
+	width: 800px;
+	text-align: left;
+	position: absolute;
+	bottom:100px;
+	left: 500px;
+}
+.container .text p{
+font-size: 20px;
+font-family: sans-serif;
+}
+.container .text h2{
+font-family: sans-serif;
+text-align: center;
+font-size: 30px;
+}
+.container .text .list{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+/*This blinking code is copied just to make it look attractive*/
+.container .text .offer {
+	background-color: red;
+	width: 550px;
+	animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{opacity: 1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
